@@ -1,0 +1,10 @@
+[project]
+name = "pump"
+version = "0.1.0"
+description = "Python's Universal Modules Pack (P.U.M.P.)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["modules/*/*"]
